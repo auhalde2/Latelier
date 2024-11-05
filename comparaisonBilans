@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparaison des Formules de Bilans de Compétences</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .comparison {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .formula {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            width: 45%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <h1>Comparaison des Formules de Bilans de Compétences</h1>
+    <div class="comparison">
+        <div class="formula">
+            <h2>Formule Essentiel</h2>
+            <ul>
+                <li><span class="highlight">Nombre d'heures :</span> 14h</li>
+                <li><span class="highlight">Durée :</span> 8 semaines</li>
+                <li><span class="highlight">Nombre de rendez-vous :</span> 6</li>
+                <li><span class="highlight">Tarif CPF :</span> 1800€</li>
+                <li><span class="highlight">Places disponibles :</span> moins de 5</li>
+            </ul>
+            <h3>Votre parcours inclut :</h3>
+            <ul>
+                <li>Vos compétences</li>
+                <li>Votre personnalité</li>
+                <li>Votre projet professionnel</li>
+                <li>Mes motivations</li>
+                <li>Votre synthèse</li>
+                <li>Votre plan d'action</li>
+                <li>Enquête terrain</li>
+            </ul>
+        </div>
+        <div class="formula">
+            <h2>Formule Avantage</h2>
+            <ul>
+                <li><span class="highlight">Nombre d'heures :</span> 18h</li>
+                <li><span class="highlight">Durée :</span> 9 semaines</li>
+                <li><span class="highlight">Nombre de rendez-vous :</span> 7</li>
+                <li><span class="highlight">Tarif CPF :</span> 2000€</li>
+                <li><span class="highlight">Places disponibles :</span> moins de 3</li>
+            </ul>
+            <h3>Votre parcours inclut :</h3>
+            <ul>
+                <li>Tout ce qui est dans la Formule Essentiel</li>
+                <li>Vos compétences approfondies</li>
+                <li>Tests approfondis</li>
+                <li>Projet professionnel approfondi</li>
+                <li>Fiches pratiques métiers</li>
+                <li>Mes motivations profondes (neurosciences)</li>
+                <li>Plan d'action approfondi</li>
+                <li>Enquête terrain approfondie</li>
+                <li>Bonus "Apprendre de son passé"</li>
+            </ul>
+        </div>
+    </div>
+    <p style="text-align: center; margin-top: 20px;">
+        Les deux formules incluent la newsletter de la reconversion.<br>
+        Option "Accès communauté d'experts métier" disponible sur demande.
+    </p>
+</body>
+</html>
